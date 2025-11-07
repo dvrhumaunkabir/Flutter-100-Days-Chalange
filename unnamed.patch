@@ -1,0 +1,36 @@
+Index: lib/Styles/textStyles.dart
+===================================================================
+diff --git a/lib/Styles/textStyles.dart b/lib/Styles/textStyles.dart
+--- a/lib/Styles/textStyles.dart
++++ b/lib/Styles/textStyles.dart
+@@ -16,6 +16,6 @@
+   static const buttonText = TextStyle(
+     fontSize: 16,
+     fontWeight: FontWeight.w600,
+-    color: Color(0xF),
++    color: Color(0xFFFFFFFF),
+   );
+ }
+Index: lib/Styles/appTheme.dart
+===================================================================
+diff --git a/lib/Styles/appTheme.dart b/lib/Styles/appTheme.dart
+--- a/lib/Styles/appTheme.dart
++++ b/lib/Styles/appTheme.dart
+@@ -9,7 +9,7 @@
+     appBarTheme: const AppBarTheme(
+       backgroundColor: AppColors.primary,
+       foregroundColor: Colors.white,
+-      elevation: 2,
++      elevation: 10,
+     ),
+   );
+ 
+@@ -20,7 +20,7 @@
+     appBarTheme: const AppBarTheme(
+       backgroundColor: AppColors.textDark,
+       foregroundColor: Colors.white,
+-      elevation: 2,
++      elevation: 10,
+     ),
+   );
+ 
